@@ -1,20 +1,7 @@
 #include <Arduino.h>
 
-/*
-  SENTINEL 
-  ------------------------------------------
-  - Wake easy / Rage harder tilt behavior
-  - Pot controls patience (IDLE -> REWARD delay)
-  - ANGRY: blinking red + rapid beeps
-  - LOCKED: solid red + continuous tone until unlocked
 
-
-  Serial output formats:
-    [STATE] message
-    @STAT state=STATE anger=N patienceMs=MS
-*/
-
-const bool TILT_INVERTED = true;
+const bool TILT_INVERTED = true; 
 
 // ================= PINS =========================
 const uint8_t PIN_BUTTON = 13;
