@@ -42,7 +42,7 @@ Software & engineering highlights:
 
 -Edge-triggered tilt detection with re-arming to prevent “stuck” triggers
 
--State-dependent tilt sensitivity (“wake easy / rage harder”)
+-State-dependent tilt sensitivity 
 
 -Non-blocking timers with millis() (no delay-based state logic)
 
